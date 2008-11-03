@@ -3,7 +3,7 @@ Contributors: jbrinley, emorgan
 Tags: doaj, open-access, metadata, xml, journal, periodical, OAI, OAI-PMH
 Requires at least: 2.3
 Tested up to: 2.6
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 Adds a feed for exporting your data using the DOAJ article XML schema.
 
@@ -26,14 +26,14 @@ This plugin adds a feed to your site that uses the [DOAJ article XML schema](htt
 = How do I access this feed? =
 
 Add the query string `?feed=doaj` to the end of the URL for any page on your site.
-<pre>http://example.com/?feed=doaj
-http://example.com/tags/foo?feed=doaj
-http://example.com/?s=bar&feed=doaj</pre>
+    http://example.com/?feed=doaj
+    http://example.com/tags/foo?feed=doaj
+    http://example.com/?s=bar&feed=doaj
 
 If mod_rewrite is enabled on your site (_i.e._, you have pretty URLs), you can also access the feed by appending `/feed/doaj` to your URL.
-<pre>http://example.com/feed/doaj
-http://example.com/tags/foo/feed/doaj
-http://example.com/feed/doaj?s=bar</pre>
+    http://example.com/feed/doaj
+    http://example.com/tags/foo/feed/doaj
+    http://example.com/feed/doaj?s=bar
     
 = Where do the volume/issue numbers come from? =
 
